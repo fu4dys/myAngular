@@ -5,13 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
-import { CardsComponent } from './cards/cards.component';
+import { CardsDatabaseComponent } from './cards/cards-database.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    CardsComponent
+    CardsDatabaseComponent
   ],
   imports: [
     BrowserModule,
